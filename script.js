@@ -1,8 +1,8 @@
 function getFormvalue() {
     //Write your code here
-	const form = document.getElementById('myForm');
-  const firstName = form.firstName.value;
-  const lastName = form.lastName.value;
+	const form = document.getElementById('form1');
+  const firstName = form.fname.value;
+  const lastName = form.lname.value;
 
   if (firstName && lastName) {
     alert("First Name: " + firstName + "\nLast Name: " + lastName);
