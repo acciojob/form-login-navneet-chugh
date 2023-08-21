@@ -11,7 +11,7 @@ function getFormvalue() {
   }
 }
 // Add an event listener to the form to call the function on submission
-document.getElementById('myForm').addEventListener('submit', function(event) {
+document.getElementById('form1').addEventListener('submit', function(event) {
   event.preventDefault(); // Prevent the default form submission
   getFormvalue();
 });
